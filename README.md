@@ -26,7 +26,7 @@ Update the database connection details in the config.php file.
 Run the Project:
 
 Place the project folder inside the htdocs directory of XAMPP.
-Access the project in your browser by visiting http://localhost/plant-nursery-management-system.
+
 Usage
 
 Contributing
