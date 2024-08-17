@@ -1,3 +1,6 @@
+![Screenshot (45)](https://github.com/user-attachments/assets/27837a7e-5b6e-4fb7-8162-fa34b6fcc1d5)
+![Screenshot (43)](https://github.com/user-attachments/assets/f95906e6-c1c7-4e09-a030-2b55570ef149)
+
 Plant Nursery Management System
 Project Overview
 This project is a Plant Nursery Management System designed to streamline the operations of a plant nursery. The system allows for managing plant inventories, tracking orders, handling customer details, and more.
