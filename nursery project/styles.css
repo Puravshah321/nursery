@@ -1,0 +1,354 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background-color: #4caf50;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 32px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f0f0f0;
+}
+
+/* Hero Section */
+#hero {
+    background-image: url('img/hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero h2 {
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+
+#hero p {
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+#hero .btn {
+    display: inline-block;
+    padding: 15px 30px; /* Adjusted padding */
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#hero .btn:hover {
+    background-color: #45a049;
+}
+
+/* Featured Products Section */
+#featured {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 40px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #eee;
+    border-radius: 12px 12px 0 0;
+}
+
+.product-card h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.product-card p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #666;
+}
+
+.product-card .btn {
+    display: inline-block;
+    padding: 10px 20px; /* Adjusted padding */
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.product-card .btn:hover {
+    background-color: #45a049;
+}
+
+
+/* Our Products Section */
+#products {
+    padding: 50px 0;
+}
+
+.product-category {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.product-category h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.product-category img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.product-category img:hover {
+    transform: scale(1.05);
+}
+
+/* About Us Section */
+#about {
+    padding: 50px 0;
+}
+
+#about p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Contact Us Section */
+#contact {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+#contact button {
+    padding: 15px 30px; /* Adjusted padding */
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+
+#contact button:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 18px;
+}
+/* Product Styles */
+.cont {
+    padding: 20px;
+}
+
+.prod {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Align images to the left */
+}
+
+.productse {
+    width: calc(33.33% - 20px); /* Adjusted width */
+    margin-right: 20px; /* Added margin for spacing */
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    position: relative; /* Added for positioning product info */
+}
+
+.productse:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+}
+
+.productse:hover {
+    transform: translateY(-5px);
+}
+
+.productse img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover; /* Ensure images fill the container */
+}
+
+.product-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    text-align: center;
+}
+
+.product-info h3,
+.product-info p {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Added font family */
+}
+
+.product-info h3 {
+    font-size: 24px; /* Increased font size */
+    color: #333;
+}
+
+.product-info p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Pagination */
+.pagination {
+    text-align: center;
+    margin-top: 40px;
+    clear: both; /* Clear floats */
+}
+
+.pagination a {
+    color: #4caf50;
+    padding: 10px 20px;
+    margin: 0 5px;
+    text-decoration: none;
+    border: 1px solid #4caf50;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.pagination a:hover {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    #hero h2 {
+        font-size: 36px;
+    }
+
+    #hero p {
+        font-size: 20px;
+    }
+
+    .product-card {
+        margin-bottom: 30px;
+    }
+
+    .product-card h3 {
+        font-size: 20px;
+    }
+
+    .product-card p {
+        font-size: 18px;
+    }
+
+    .product-category h3 {
+        font-size: 28px;
+    }
+
+    #about p {
+        font-size: 18px;
+    }
+
+    footer p {
+        font-size: 16px;
+    }
+}
